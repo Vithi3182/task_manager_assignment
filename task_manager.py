@@ -53,7 +53,7 @@ def load_tasks(filename='tasks.json'):
     except FileNotFoundError:
         return []
 
-# Function for user login (optional for testing purposes)
+# Function for user login 
 def login():
     dummy_email = "testuser@example.com"
     dummy_password = "password123"
@@ -102,7 +102,7 @@ def main():
 
 # Start the application
 if __name__ == "__main__":
-    if login():  # Optional: if you want to include login functionality
+    if login():  
         main()
     else:
         print("Exiting application.")
