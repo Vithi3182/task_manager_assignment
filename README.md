@@ -8,3 +8,5 @@ A simple command-line application to manage tasks. Users can add, view, delete, 
 2. Run the application:
    ```bash
    python task_manager.py
+ dummy email : testuser@example.com
+ dummy_password : password123
